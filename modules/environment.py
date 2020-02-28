@@ -1,4 +1,4 @@
 import os
 def run (**args):
 	print (" [*] In environment module.")
-	return str(os.environ).decode('base64')
+	return str(os.environ).decode('utf8')
