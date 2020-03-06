@@ -1,9 +1,0 @@
-('Z:\\root\\trojan\\dist\\trojan.exe',
- True,
- False,
- None,
- None,
- [],
- None,
- False,
- 1582886534L)
